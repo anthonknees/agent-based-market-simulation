@@ -1,0 +1,43 @@
+{
+  "run_id": "010",
+  "steps": 500,
+  "num_traders": 30,
+  "seed": 123,
+  "initial_price": 100.0,
+  "final_price": 143.93,
+  "price_return_pct": 43.93,
+  "jump_rate": 0.004,
+  "mean_rolling_vol": 0.004821,
+  "total_volume": 773,
+  "mean_spread": 0.5987,
+  "execution_time_sec": 0.017,
+  "strategy_performance": [
+    {
+      "strategy": "RandomStrategy",
+      "num_traders": 10,
+      "mean_total_return_pct": 1.1311,
+      "std_total_return_pct": 0.5787,
+      "mean_sharpe": 0.070054,
+      "mean_max_drawdown_pct": 0.3357,
+      "mean_fill_rate": 53.3457
+    },
+    {
+      "strategy": "MomentumStrategy",
+      "num_traders": 9,
+      "mean_total_return_pct": 12.5309,
+      "std_total_return_pct": 3.1363,
+      "mean_sharpe": 0.138396,
+      "mean_max_drawdown_pct": 1.2109,
+      "mean_fill_rate": 70.1702
+    },
+    {
+      "strategy": "MeanReversionStrategy",
+      "num_traders": 11,
+      "mean_total_return_pct": 0.3939,
+      "std_total_return_pct": 0.5493,
+      "mean_sharpe": 0.032972,
+      "mean_max_drawdown_pct": 0.2817,
+      "mean_fill_rate": 87.1219
+    }
+  ]
+}

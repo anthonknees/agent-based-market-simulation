@@ -1,0 +1,23 @@
+{
+  "max_time": 1000,
+  "seed": 42,
+  "initial_price": 100.0,
+  "num_traders": 30,
+  "vol_window": 50,
+  "jump_tau": 0.02,
+  "output_dir": "/sessions/youthful-sleepy-wright/mnt/agent-based-market-simulation/src/../data/m3_runs",
+  "run_id": "007",
+  "frac_random": 0.34,
+  "frac_momentum": 0.33,
+  "frac_mean_reversion": 0.33,
+  "random_delta": 2.0,
+  "random_qmax": 5,
+  "momentum_lookback": 10,
+  "momentum_theta": 1.0,
+  "momentum_kappa": 0.5,
+  "momentum_qmax": 4,
+  "meanrev_window": 20,
+  "meanrev_theta": 1.0,
+  "meanrev_kappa": 0.5,
+  "meanrev_qmax": 4
+}
